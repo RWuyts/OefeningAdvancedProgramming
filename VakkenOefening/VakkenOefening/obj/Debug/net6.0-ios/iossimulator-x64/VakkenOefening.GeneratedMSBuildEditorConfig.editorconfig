@@ -64,12 +64,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.Overz
 build_metadata.AdditionalFiles.TargetPath = Views\OverzichtVakkenStack.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OverzichtVakkenStack.xaml
 
-[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/test.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.test.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\test.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\test.xaml
-
 [D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakBiologie.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakBiologie.xaml

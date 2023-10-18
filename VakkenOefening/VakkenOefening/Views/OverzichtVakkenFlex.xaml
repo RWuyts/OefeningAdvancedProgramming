@@ -7,51 +7,54 @@
         <FlexLayout Direction="Row" JustifyContent="SpaceAround" BackgroundColor="Black" Wrap="Wrap" MinimumWidthRequest="20" MinimumHeightRequest="20">
             <!--Biologie-->
             <StackLayout>
-                    <ImageButton
+                <ImageButton
                         Source="biologie.jpg"
                         Clicked="GoToCourseBiologie"
-                        Style="{StaticResource imageButtonStyle}"/>
-                    <Label
+                    Style="{StaticResource imageButtonStyle}"
+                       />
+
+                <Label
                         Text="Biologie"
-                        Style="{StaticResource labelStyle}"/>
-                </StackLayout>
+                    Style="{StaticResource labelStyle}"
+                       />
+            </StackLayout>
             <!--Frans-->
             <StackLayout>
-                    <ImageButton
+                <ImageButton
                         Source="frans.jpg"
                         Clicked="GoToCourseFrans"
                         Style="{StaticResource imageButtonStyle}"/>
-                    <Label 
+                <Label 
                         Text="Frans"
                         Style="{StaticResource labelStyle}"/>
-                </StackLayout>
+            </StackLayout>
             <!--Geschiedenis-->
-                <StackLayout>
-                    <ImageButton
+            <StackLayout>
+                <ImageButton
                         Source="geschiedenis.jpg"
                         Clicked="GoToCourseGeschiedenis"
                         Style="{StaticResource imageButtonStyle}"/>
-                    <Label
+                <Label
                         Text="Geschiedenis"
                         Style="{StaticResource labelStyle}"/>
-                </StackLayout>
+            </StackLayout>
             <!--Nederlands-->
-                <StackLayout>
-                    <ImageButton
+            <StackLayout>
+                <ImageButton
                         Source="nederlands.jpg"
                         Clicked="GoToCourseNederlands"
                         Style="{StaticResource imageButtonStyle}"/>
-                    <Label
+                <Label
                         Text="Nederlands"
                         Style="{StaticResource labelStyle}"/>
-                </StackLayout>
+            </StackLayout>
             <!--Wiskunde-->
             <StackLayout>
-                    <ImageButton
+                <ImageButton
                         Source="wiskunde.jpg"
                         Clicked="GoToCourseWiskunde"
                         Style="{StaticResource imageButtonStyle}"/>
-                    <Label
+                <Label
                         Text="Wiskunde"
                         Style="{StaticResource labelStyle}"/>
             </StackLayout>

@@ -61,9 +61,6 @@
 	  <MauiXaml Update="Views\OverzichtVakkenStack.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\test.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\VakBiologie.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -2,10 +2,10 @@ namespace VakkenOefening.Views;
 
 public partial class OverzichtVakkenFlex : ContentPage
 {
-	public OverzichtVakkenFlex()
-	{
-		InitializeComponent();
-	}
+    public OverzichtVakkenFlex()
+    {
+        InitializeComponent();
+    }
 
     private void GoToCourseBiologie(object sender, EventArgs e)
     {
