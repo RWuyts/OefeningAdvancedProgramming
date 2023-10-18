@@ -5,6 +5,7 @@
              Title="OverzichtVakkenStack">
     <ScrollView
         HorizontalScrollBarVisibility="Always"
+        IsVisible="true"
         Orientation="Horizontal">
         <HorizontalStackLayout
             BackgroundColor="Black">

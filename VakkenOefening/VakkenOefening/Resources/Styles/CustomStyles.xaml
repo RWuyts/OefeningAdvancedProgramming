@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?xaml-comp compile="true" ?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VakkenOefening.Resources.Styles.CustomStyles">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
+    <!--Label-->
     <Style x:Key="labelStyle" TargetType="Label">
         <Setter Property="FontFamily" Value="TitleFont"/>
         <Setter Property="VerticalTextAlignment" Value="Center"/>
@@ -14,6 +14,7 @@
         <Setter Property="TextColor" Value="White"/>
     </Style>
 
+    <!--ImageButton-->
     <Style x:Key="imageButtonStyle" TargetType="ImageButton">
         <Setter Property="MaximumHeightRequest" Value="160"/>
         <Setter Property="MaximumWidthRequest" Value="200"/>
@@ -21,5 +22,15 @@
         <Setter Property="Margin" Value="5"/>
         <Setter Property="BackgroundColor" Value="Black"/>
         <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+    
+    <!--Image-->
+    <Style x:Key="imageStyle" TargetType="Image">
+        <Setter Property="MaximumHeightRequest" Value="160"/>
+        <Setter Property="MaximumWidthRequest" Value="200"/>
+        <Setter Property="Aspect" Value="Center"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="BackgroundColor" Value="Black"/>
+        <Setter Property="VerticalOptions" Value="Center"/>        
     </Style>
 </ResourceDictionary>
