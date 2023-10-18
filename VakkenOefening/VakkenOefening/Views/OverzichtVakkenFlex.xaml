@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VakkenOefening.Views.OverzichtVakkenFlex"
+             Title="OverzichtVakkenFlex">
+    <ScrollView Orientation="Vertical">
+        <FlexLayout Direction="Row" JustifyContent="SpaceAround" BackgroundColor="Black" Wrap="Wrap" MinimumWidthRequest="20" MinimumHeightRequest="20">
+            <!--Biologie-->
+            <StackLayout>
+                    <ImageButton
+                        Source="biologie.jpg"
+                        Clicked="GoToCourseBiologie"
+                        Style="{StaticResource imageButtonStyle}"/>
+                    <Label
+                        Text="Biologie"
+                        Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+            <!--Frans-->
+            <StackLayout>
+                    <ImageButton
+                        Source="frans.jpg"
+                        Clicked="GoToCourseFrans"
+                        Style="{StaticResource imageButtonStyle}"/>
+                    <Label 
+                        Text="Frans"
+                        Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+            <!--Geschiedenis-->
+                <StackLayout>
+                    <ImageButton
+                        Source="geschiedenis.jpg"
+                        Clicked="GoToCourseGeschiedenis"
+                        Style="{StaticResource imageButtonStyle}"/>
+                    <Label
+                        Text="Geschiedenis"
+                        Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+            <!--Nederlands-->
+                <StackLayout>
+                    <ImageButton
+                        Source="nederlands.jpg"
+                        Clicked="GoToCourseNederlands"
+                        Style="{StaticResource imageButtonStyle}"/>
+                    <Label
+                        Text="Nederlands"
+                        Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+            <!--Wiskunde-->
+            <StackLayout>
+                    <ImageButton
+                        Source="wiskunde.jpg"
+                        Clicked="GoToCourseWiskunde"
+                        Style="{StaticResource imageButtonStyle}"/>
+                    <Label
+                        Text="Wiskunde"
+                        Style="{StaticResource labelStyle}"/>
+            </StackLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

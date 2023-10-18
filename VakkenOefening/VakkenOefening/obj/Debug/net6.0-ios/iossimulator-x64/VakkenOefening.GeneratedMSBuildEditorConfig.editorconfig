@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VakkenOefening
+build_property.ProjectDir = D:\school\Herstart Jaar 2\Programming Advanced\Les 1 Oefeningen\Oefening1\VakkenOefening\VakkenOefening\
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Resources/Styles/CustomStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Resources.Styles.CustomStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\CustomStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\CustomStyles.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/OverzichtVakkenFlex.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.OverzichtVakkenFlex.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OverzichtVakkenFlex.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OverzichtVakkenFlex.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/OverzichtVakkenGrid.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.OverzichtVakkenGrid.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OverzichtVakkenGrid.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OverzichtVakkenGrid.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/OverzichtVakkenStack.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.OverzichtVakkenStack.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OverzichtVakkenStack.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OverzichtVakkenStack.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/test.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.test.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\test.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\test.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakBiologie.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakBiologie.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VakBiologie.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VakBiologie.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakFrans.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakFrans.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VakFrans.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VakFrans.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakGeschiedenis.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakGeschiedenis.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VakGeschiedenis.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VakGeschiedenis.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakNederlands.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakNederlands.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VakNederlands.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VakNederlands.xaml
+
+[D:/school/Herstart Jaar 2/Programming Advanced/Les 1 Oefeningen/Oefening1/VakkenOefening/VakkenOefening/Views/VakWiskunde.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VakkenOefening.Views.VakWiskunde.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VakWiskunde.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VakWiskunde.xaml

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VakkenOefening.Views.OverzichtVakkenGrid"
+             Title="OverzichtVakkenGrid"
+             BackgroundColor="Black">
+    <ScrollView
+        VerticalScrollBarVisibility="Always"
+        Orientation="Vertical">
+        <Grid
+            ColumnSpacing="5"
+            RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <!--TitelRij-->
+            <VerticalStackLayout>
+                <Label 
+                    Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    Text="Vakken"
+                    Style="{StaticResource labelStyle}"/>
+                <HorizontalStackLayout>
+                    <!--Biologie-->
+                    <VerticalStackLayout>
+                        <Label 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="Biologie"
+                    Style="{StaticResource labelStyle}"/>
+                        <ImageButton
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Source="biologie.jpg"
+                    Clicked="GoToCourseBiologie"
+                    Style="{StaticResource imageButtonStyle}"/>
+                        <!--Frans-->
+                        <Label 
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="Frans"
+                    Style="{StaticResource labelStyle}"/>
+                        <ImageButton
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Source="frans.jpg"
+                    Clicked="GoToCourseFrans"
+                    Style="{StaticResource imageButtonStyle}"/>
+                        <!--Geschiedenis-->
+                        <Label 
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="Geschiedenis"
+                    Style="{StaticResource labelStyle}"/>
+                        <ImageButton
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Source="geschiedenis.jpg"
+                    Clicked="GoToCourseGeschiedenis"
+                    Style="{StaticResource imageButtonStyle}"/>
+                    </VerticalStackLayout>
+                    <!--Nederlands-->
+                    <VerticalStackLayout>
+                        <Label 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="Nederlands"
+                    Style="{StaticResource labelStyle}"/>
+                        <ImageButton
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Source="nederlands.jpg"
+                    Clicked="GoToCourseNederlands"
+                    Style="{StaticResource imageButtonStyle}"/>
+                        <!--Wiskunde-->
+                        <Label 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Text="Wiskunde"
+                    Style="{StaticResource labelStyle}"/>
+                        <ImageButton
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Source="wiskunde.jpg"
+                    Clicked="GoToCourseWiskunde"
+                    Style="{StaticResource imageButtonStyle}"/>
+                        <!--Oranje Label-->
+                        <Label
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    BackgroundColor="Orange"
+                            HeightRequest="200"
+                    Style="{StaticResource labelStyle}"/>
+                        <!--<BoxView
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            BackgroundColor="Orange"
+                            HeightRequest="20"
+                            Margin="10"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Fill"/>-->
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
