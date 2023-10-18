@@ -18,9 +18,6 @@
     <MauiXaml Update="Views\OverzichtVakkenStack.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\test.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Views\VakBiologie.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
